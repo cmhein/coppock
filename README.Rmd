@@ -1,5 +1,16 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
 
 ## Overview
 
@@ -7,7 +18,7 @@ The coppock package computes the Coppock Curve.
 
 ## Installation
 
-``` r
+```{r, eval = FALSE}
 # Install the development version from GitHub:
 # install.packages("remotes")
 remotes::install_github("cmhein/coppock")
@@ -15,6 +26,6 @@ remotes::install_github("cmhein/coppock")
 
 ## Getting started
 
-``` r
+```{r}
 library(coppock)
 ```
