@@ -1,18 +1,18 @@
 Package: coppock
-Version: 0.1.0
 Title: Coppock Curve
-Authors@R: c(
-    person("Chris", "Hein", role = c("aut", "cre"),
-           email = "cmhein00@gmail.com")
-    )
+Version: 0.1.0
+Authors@R:
+    person("Chris", "Hein", email = "cmhein00@gmail.com",
+        role = c("aut", "cre"))
 Description: Coppock curve.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
 Depends:
     R (>= 3.0)
 Imports:
     dplyr,
     TTR
-License: GPL-3
-LazyData: true
 URL: https://github.com/cmhein/coppock
 BugReports: https://github.com/cmhein/coppock/issues
 RoxygenNote: 6.1.1
