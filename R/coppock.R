@@ -80,6 +80,6 @@ coppock_curve_solve_next <- function(x, n1 = 14L, n2 = 11L, n3 = 10L, y = 0) {
   # Append a zero to the x vector as a simple means of solving for the next
   # x-value that would give the y-value provided by argument. Note that the zero
   # is arbitrary and does not affect the calculation.
-  v <- coppock_curve_solve(c(x, 0), n1, n2, n3, y)
+  v <- coppock_curve_solve_each(c(x, 0), n1, n2, n3, y)
   v[length(v)]
 }
